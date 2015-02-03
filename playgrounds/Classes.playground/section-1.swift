@@ -19,7 +19,7 @@ myAnimal.name = "Grizzly Bear"
 //see the change
 myAnimal.getDetails()
 
-//INHERITANCE (from Animal)
+//SUB CLASSING - INHERITANCE (from Animal)
 //inherits based on :Animal
 class Dog:Animal{
     
