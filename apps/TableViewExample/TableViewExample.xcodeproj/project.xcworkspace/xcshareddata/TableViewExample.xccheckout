@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D66CC45F-CDA1-438E-A1B0-FA1960A3CF6A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TableViewExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD0C9F0173F426F1368FCE46076394DA8D4008E1</key>
+		<string>github.com:ksam902/swift_development.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>apps/TableViewExample/TableViewExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD0C9F0173F426F1368FCE46076394DA8D4008E1</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ksam902/swift_development.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD0C9F0173F426F1368FCE46076394DA8D4008E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD0C9F0173F426F1368FCE46076394DA8D4008E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ICOM3010_Self_Directed</string>
+		</dict>
+	</array>
+</dict>
+</plist>
