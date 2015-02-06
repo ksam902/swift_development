@@ -247,10 +247,11 @@ func power(base a: Int, exponent b: Int) -> Int{
 }
 power(base: 2, exponent: 3)
 
+//-----------------------CLOSURES---------------------
 
-
-
-
+//What is a Closure? Closures are nothing more than blocks of functionality that you can pass around in your code.
+//One of the key advantages of closures in Swift is that memory management is something you, the developer, don't have to worry about.
+//Example
 
 
 
