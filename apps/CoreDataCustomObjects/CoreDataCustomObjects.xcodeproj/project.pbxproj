@@ -14,6 +14,7 @@
 		3AEBE1EF1A86634200BC6697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEBE1EE1A86634200BC6697 /* Images.xcassets */; };
 		3AEBE1F21A86634200BC6697 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEBE1F01A86634200BC6697 /* LaunchScreen.xib */; };
 		3AEBE1FE1A86634200BC6697 /* CoreDataCustomObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEBE1FD1A86634200BC6697 /* CoreDataCustomObjectsTests.swift */; };
+		3AEBE2081A8666A800BC6697 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEBE2071A8666A700BC6697 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3AEBE1F71A86634200BC6697 /* CoreDataCustomObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCustomObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEBE1FC1A86634200BC6697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AEBE1FD1A86634200BC6697 /* CoreDataCustomObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCustomObjectsTests.swift; sourceTree = "<group>"; };
+		3AEBE2071A8666A700BC6697 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3AEBE1F01A86634200BC6697 /* LaunchScreen.xib */,
 				3AEBE1E61A86634200BC6697 /* CoreDataCustomObjects.xcdatamodeld */,
 				3AEBE1E21A86634200BC6697 /* Supporting Files */,
+				3AEBE2071A8666A700BC6697 /* Users.swift */,
 			);
 			path = CoreDataCustomObjects;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEBE2081A8666A800BC6697 /* Users.swift in Sources */,
 				3AEBE1EA1A86634200BC6697 /* ViewController.swift in Sources */,
 				3AEBE1E81A86634200BC6697 /* CoreDataCustomObjects.xcdatamodeld in Sources */,
 				3AEBE1E51A86634200BC6697 /* AppDelegate.swift in Sources */,
