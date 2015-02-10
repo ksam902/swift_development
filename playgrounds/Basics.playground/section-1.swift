@@ -6,12 +6,12 @@ import UIKit
 // String Variable - Inferred
 //var (mutable)
 var string1 = "Hello, my name is"
-//OR - Explicit
+//OR - Explicit - type annotation
 var string2: String = "Hello, my name is"
-var name = "Tiffany"
+var name: String = "Tiffany"
 // Integer Variable
-var num = 3
-var num1 = 5
+var num: Int = 3
+var num1: Int = 5
 var num2 = 45
 var num3 = 100
 
@@ -46,7 +46,7 @@ let a = [1, 2, 3]
 let b = [4, 5, 6]
 
 let c = a + b
-//Appending to a MUTABLE
+//Appending to a MUTABLE ARRAY
 var array = [1, 2, 3]
 array += [4]
 println(array)
@@ -97,21 +97,34 @@ println(currencyName2)
 //given default value of nil - IMPORTANT TO NOTE : nil means the absence of a value, any value - used for any type.
 //Important to note that word is not of type String but it is of type Optional
 var word: String?
-word = "Example of an optional"
-//force unwrap it - add a ! to the end of the variable - need to make sure it has a value or an error will be thrown
-println(word!)
 //Optional Binding = Safer way to access value of the Optional - Ensures word won't be force unwrapped accidently
 if word != nil{
     println(word!)
 }else{
     println("word has no value!")
 }
-//Optional Binding with a temporary Constant
-if let wordConstant = word{
-    println(wordConstant)
+word = "Example of an optional"
+//force unwrap it - add a ! to the end of the variable - need to make sure it has a value or an error will be thrown
+println(word!)
+if word != nil{
+    println(word!)
 }else{
     println("word has no value!")
 }
+//Optional Binding with a temporary Constant
+//“If the optional Int returned by possibleNumber.toInt contains a value, set a new constant called actualNumber to the value contained in the
+//optional.”
+//If the conversion is successful, the actualNumber constant becomes available for use within the first branch of the if statement.
+//It has already been initialized with the value contained within the optional, and so there is no need to use the ! suffix to access its value.
+//In this example, actualNumber is simply used to print the result of the conversion.
+let possibleNumber = "123"
+if let actualNumber = possibleNumber.toInt() {
+    println("\'\(possibleNumber)\' has an integer value of \(actualNumber)")
+} else {
+    println("\'\(possibleNumber)\' could not be converted to an integer")
+}
+// prints "'123' has an integer value of 123"
+
 //CONTROL FLOW
 
 //LOOPS
